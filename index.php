@@ -7,3 +7,5 @@
         <h1 class="title">Bienvenu sur Coder blog</h1>
     </section>
 </main>
+
+<?php require_once('components/footer.php'); ?>
