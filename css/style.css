@@ -8,6 +8,9 @@
 }
 
 @media all and (min-width:1400px){
+    body{
+        background-color: #f1f1f1;
+    }
     .navbar{
         width: 80vw;
         height: 10vh;
@@ -74,5 +77,59 @@
         padding: 0 10vw;
         display: flex;
         flex-wrap: wrap;
+    }
+    .post-card{
+        width: 22vw;
+        height: 28vh;
+        margin: 0.5vh 0.5vw;
+        background-color: white;
+    }
+    .card-img{
+        width: 100%;
+        height: 70%;
+    }
+    .card-container{
+        width: 90%;
+        height: 25%;
+        padding: 1.25% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .card-author-view{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-title-date{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-title{
+        font-size: 2.5vh;
+        font-weight: 700;
+    }
+    .card-author{
+        font-size: 1.5vh;
+        font-style: italic;
+    }
+    .card-cta{
+        padding: 0.675vh 1vw;
+        background-color: #3498db;
+        color: white;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.08);
+    }
+    .card-cta:hover{
+        cursor: pointer;
+        box-shadow: none;
+        transition: ease-in-out 0.4s;
     }
 }
