@@ -7,7 +7,7 @@ require_once("config/dbConfig.php");
     <h1 class="title">Welcome to Coder blog</h1>
 </section>
 <div class="controls">
-    <a href="" class="cta-link"><button class="cta">Add post</button></a>
+    <a href="article-form.php" class="cta-link"><button class="cta">Add post</button></a>
 </div>
 <section class="article-container">
     <?php
@@ -23,7 +23,7 @@ require_once("config/dbConfig.php");
                 </div>
                 <div class="card-author-view">
                     <p class="card-author"><?php echo $article['name']; ?></p>
-                    <a href=""><button class="card-cta">View more</button></a>
+                    <a href="single.php?id=<?php echo $article['id']; ?>"><button class="card-cta">View more</button></a>
                 </div>
             </div>
         </div>
