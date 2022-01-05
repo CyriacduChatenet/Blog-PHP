@@ -19,7 +19,6 @@ require_once("config/dbConfig.php");
             <div class="card-container">
                 <div class="card-title-date">
                     <h4 class="card-title"><?php echo $article['title']; ?></h4>
-                    <p class="card-date"><?php echo $article['date']; ?></p>
                 </div>
                 <div class="card-author-view">
                     <p class="card-author"><?php echo $article['name']; ?></p>

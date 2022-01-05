@@ -156,6 +156,7 @@
         padding: 0 5vw;
         display: flex;
         align-items: center;
+        
     }
     .post-img{
         height: 100%;
@@ -167,5 +168,43 @@
         padding-left: 5%;
         display: flex;
         align-items: center;
+    }
+    .article-form{
+        padding: 15vh 5vw 0 5vw;
+        width: 90vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .form{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .form-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 30vw;
+        height: 3vh;
+        padding: 0 1vw;
+        border: none;
+        border-radius: 5px;
+    }
+    .input:focus{
+        outline: none;
+    }
+    label{
+        margin-bottom: 1vh;
+    }
+    .content-input{
+        height: 20vh;
+        padding: 1vh 1vw;
     }
 }

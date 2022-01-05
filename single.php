@@ -12,7 +12,6 @@
     <h1 class="post-title"><?php echo $article['title']; ?></h1>
     <div class="post-chracteristics">
         <p class="post-author">Publié par <?php echo $article['name']; ?></p>
-        <p class="post-date"> le <?php echo $article['date']; ?> .</p>
     </div>
     <div class="post-page-container">
         <img src="<?php echo $article['thubnail']; ?>" alt="" class="post-img">
