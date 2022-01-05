@@ -38,11 +38,41 @@
     .herobanner{
         width: 80vw;
         height: 20vh;
-        padding-top: 15vh;
+        padding: 15vh 10vw 0 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .title{
-        font-size: 3.5vh;
+        font-size: 5vh;
         font-weight: 100;
-        text-align: center;
+    }
+    .controls{
+        width: 80vw;
+        height: 5vh;
+        padding: 0 10vw 0 10vw;
+    }
+    .cta{
+        padding: 0.5vw 1vw;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: #27ae60;
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.12);
+        font-weight: 600;
+        font-size: 1.8vh;
+    }
+    .cta:hover{
+        box-shadow: none;
+        cursor: pointer;
+        transition: ease-in-out 0.4s;
+    }
+    .article-container{
+        width: 80vw;
+        height: 50vh;
+        margin-top: 5vh;
+        padding: 0 10vw;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
