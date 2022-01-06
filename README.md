@@ -1,4 +1,5 @@
 # Blog-PHP
+This is a simple PHP blog.
 
 ## Stack 
 <div>
